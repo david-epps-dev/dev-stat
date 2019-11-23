@@ -1,1 +1,1 @@
-<h3> This is my statistical archive repository! </h3>
+<h3> This is my stat-archive repository! </h3>
