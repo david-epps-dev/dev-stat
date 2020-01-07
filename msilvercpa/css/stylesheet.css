@@ -117,7 +117,7 @@ body {
 }
 
 .title-block {
-  padding: 10px;
+  padding: 5px;
   width: 100%
 }
 
@@ -126,6 +126,9 @@ body {
   padding: 10px;
 }
 
+.title-block #business-sub {
+  padding: 10px;
+}
 
 .pic-headshot {
   height: 300px;
@@ -151,7 +154,9 @@ body {
 
 
 footer h3 {
+  color: white;
+  text-shadow: 2px 2px 8px black;
   position: fixed;
-  top: 95%;
+  top: 92%;
   left: 10px;
 }
