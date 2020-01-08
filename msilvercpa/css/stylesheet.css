@@ -142,21 +142,79 @@ body {
 .service-statement {
   text-align: justify;
   margin: 20px;
-  color: blue;
+  color: maroon;
   width: 60%;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 
 #service-head {
-    font-size: 35px;
+    font-size: 30px;
+}
+
+#service-1 {
+  color: black;
+  width: 45%;
+  padding: 10px;
+  border-radius: 5%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#service-2 {
+  color: black;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5%;
+  background: rgba(0, 0, 0, 0.1);
+  position:absolute;
+  left: 30%;
+  top: 30%;
+}
+
+#service-3 {
+  color: darkgrey;
+  width: 70%;
+  position:absolute;
+  top: 80%;
+}
+
+@media (max-width: 1200px) {
+  #service-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  #service-1 {
+    /* display: none; */
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #service-3 {
+    width: 30%;
+    position:absolute;
+    left: 35%;
+    top: 40%;
+  }
 }
 
 
 footer h3 {
-  color: white;
+  color: maroon;
+  padding: 5px;
   text-shadow: 2px 2px 8px black;
   position: fixed;
-  top: 92%;
+  top: 90%;
   left: 10px;
+
+}
+
+@media (max-width: 700px) {
+  footer h3 {
+    font-size: 18px;
+    position: fixed;
+    top: 93%;
+  }
 }
